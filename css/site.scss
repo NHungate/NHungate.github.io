@@ -1,55 +1,17 @@
-@import 'normalize';
-@import 'skeleton';
- 
-/* Global variables */
-$background: #222222;
-$default-text: #eeeeee;
 $primary: #FF6D17;
 $secondary: #408BEC;
 
+@import '../vendors/bulma/bulma';
+
+/* Global variables */
 /* Base styles */
-body {
-    background: $background;
-    color: $default-text;
-}
-
-hr {
-    border-color: $primary;
-    width: 50%;
-}
-
-a {
-    color: $secondary;
-}
-
-h1, h2, h3,
-h4, h5, h6 {
-    text-align: center;
-}
-
-.section {
-    padding: 10rem 0;
-}
-
-.subtitle {
-    font-size: 1.5em;
-    color: $primary;
-}
-
 /* Header */
-.hero {
-}
-
 /* Main */
 /* Projects */
 /* Skills */
 /* About */
 /* Footer */
-footer {
-    padding: 5rem 0;
-}
-
 /* Contact info */
-.contact-links > p {
-    margin: 0 0 .5em;
+address {
+    font-style: normal;
 }
