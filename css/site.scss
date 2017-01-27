@@ -1,0 +1,43 @@
+@import 'normalize';
+@import 'skeleton';
+ 
+/* Global variables */
+$background: #222222;
+$default-text: #eeeeee;
+$primary: orange;
+$secondary: cyan;
+
+/* Base styles */
+body {
+    background: $background;
+    color: $default-text;
+}
+
+hr {
+    border-color: $primary;
+    width: 50%;
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+    text-align: center;
+}
+
+.section {
+    padding: 10em 0;
+}
+
+/* Header */
+.hero {
+}
+.subtext {
+    font-size: 1.5em;
+    color: $primary;
+}
+
+/* Main */
+/* Projects */
+/* Skills */
+/* About */
+/* Footer */
+/* Contact info */
