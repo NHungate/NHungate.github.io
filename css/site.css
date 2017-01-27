@@ -1,3 +1,4 @@
+/* Global variables */
 /*! bulma.io v0.3.1 | MIT License | github.com/jgthms/bulma */
 @keyframes spinAround {
   from {
@@ -4028,8 +4029,10 @@ label.panel-block {
   background-color: whitesmoke;
   padding: 3rem 1.5rem 6rem; }
 
-/* Global variables */
 /* Base styles */
+li {
+  padding-bottom: 5px; }
+
 /* Header */
 /* Main */
 /* Projects */
