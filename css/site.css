@@ -863,26 +863,34 @@ body {
   color: #eeeeee; }
 
 hr {
-  border-color: orange;
+  border-color: #FF6D17;
   width: 50%; }
+
+a {
+  color: #408BEC; }
 
 h1, h2, h3,
 h4, h5, h6 {
   text-align: center; }
 
 .section {
-  padding: 10em 0; }
+  padding: 10rem 0; }
+
+.subtitle {
+  font-size: 1.5em;
+  color: #FF6D17; }
 
 /* Header */
-.subtext {
-  font-size: 1.5em;
-  color: orange; }
-
 /* Main */
 /* Projects */
 /* Skills */
 /* About */
 /* Footer */
+footer {
+  padding: 5rem 0; }
+
 /* Contact info */
+.contact-links > p {
+  margin: 0 0 .5em; }
 
 /*# sourceMappingURL=site.css.map */

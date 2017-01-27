@@ -4,8 +4,8 @@
 /* Global variables */
 $background: #222222;
 $default-text: #eeeeee;
-$primary: orange;
-$secondary: cyan;
+$primary: #FF6D17;
+$secondary: #408BEC;
 
 /* Base styles */
 body {
@@ -18,21 +18,26 @@ hr {
     width: 50%;
 }
 
+a {
+    color: $secondary;
+}
+
 h1, h2, h3,
 h4, h5, h6 {
     text-align: center;
 }
 
 .section {
-    padding: 10em 0;
+    padding: 10rem 0;
+}
+
+.subtitle {
+    font-size: 1.5em;
+    color: $primary;
 }
 
 /* Header */
 .hero {
-}
-.subtext {
-    font-size: 1.5em;
-    color: $primary;
 }
 
 /* Main */
@@ -40,4 +45,11 @@ h4, h5, h6 {
 /* Skills */
 /* About */
 /* Footer */
+footer {
+    padding: 5rem 0;
+}
+
 /* Contact info */
+.contact-links > p {
+    margin: 0 0 .5em;
+}
