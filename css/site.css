@@ -4037,10 +4037,19 @@ li {
 /* Main */
 /* Projects */
 /* Skills */
-/* About */
 /* Footer */
 /* Contact info */
 address {
   font-style: normal; }
+
+.portrait {
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid white;
+  padding: 2px;
+  border-radius: 50%;
+  overflow: hidden; }
+  .portrait img {
+    border-radius: 50%; }
 
 /*# sourceMappingURL=site.css.map */
